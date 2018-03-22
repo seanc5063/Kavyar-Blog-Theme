@@ -9,6 +9,8 @@
                 <?php the_time('F j, Y'); ?> at
                 <?php the_time('g:i a'); ?>, in
                 <?php the_category(); ?>
+                <?php the_author_firstname(); ?>
+                <?php the_author_lastname(); ?> 
             </small>
             <p><?php the_content();?></p>
             <hr>
