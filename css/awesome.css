@@ -9,7 +9,12 @@ body{
 body{
     padding: 20px;
 }
-img{
+/* img{
     width: 100%;
     height: auto;
+} */
+
+
+.author-img {
+    width: 50px;
 }
