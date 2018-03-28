@@ -2,9 +2,9 @@
 
     <?php if( has_post_thumbnail() ): ?>
 
-        <div id="<?php echo post_name; ?>" class="page-<?php
+        <div id="<?php echo post_name; ?>" class="post_name  <?php
         echo $post_id; ?>" style="background: url(<?php
-        echo get_the_post_thumbnail_url( $post_id, 'large' ); ?>) no-repeat top center / cover;">
+        echo get_the_post_thumbnail_url( $post_id, 'medium' ); ?>) no-repeat top center / cover;">
 
 
     <?php endif; ?>
@@ -22,6 +22,7 @@
             <?php the_excerpt(); ?>
         </div>
 
+        <button class="white-btn">Read Article</button>
 
     </div>
 </div>
