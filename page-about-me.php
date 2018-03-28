@@ -3,9 +3,11 @@
     <?php
     if( have_posts() ):
         while( have_posts() ): the_post(); ?>
-            <p><?php the_content();?></p>
-            <h3><?php the_title();?></h3>
-            <hr>
+            <div class="article-container">
+                <h3><?php the_title();?></h3>
+                <p><?php the_content();?></p>
+                <hr>
+            </div>
         <?php endwhile;
     endif;
     ?>

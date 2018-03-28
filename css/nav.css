@@ -1,0 +1,9 @@
+.menu-main-navigation-container{
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: right;
+}
+#menu-main-navigation li {
+    display: inline;
+    padding-right: 13px;
+}

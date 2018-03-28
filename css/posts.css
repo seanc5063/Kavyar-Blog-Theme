@@ -1,0 +1,25 @@
+.saboxplugin-wrap {
+    border-top: 1px solid lightgray!important;
+    border-bottom: 1px solid lightgray!important;
+}
+.post-cover img {
+    width: 100%;
+    height: auto;
+}
+.article:first-child:first-letter {
+  color: #903;
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+.article-title {
+    /* font-family: 'IBM Plex Serif', serif; */
+    max-width: 850px;
+    text-align: center;
+    font-size: 38px;
+    margin: auto;
+}
